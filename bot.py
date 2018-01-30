@@ -12,5 +12,5 @@ async def commandname(ctx):
     if not os.environ.get('TOKEN'):
     print("no token found REEEE!")
 bot.run(os.environ.get('TOKEN').strip('"'))
-bot = commands.Bot(command_prefix=commands.when_mentioned_or('!!'),description="Short bot description\n\nHelp Commands",owner_id=250674147980607488)
+bot = commands.Bot(command_prefix=commands.when_mentioned_or('!!'),description="yeeee\n\nHelp Commands",owner_id=250674147980607488)
     
