@@ -28,3 +28,8 @@ bot.run(os.environ.get('TOKEN').strip('"'))
 async def invite(ctx):
     await ctx.send("Invite me to that server of yours: https://discordapp.com/api/oauth2/authorize?client_id=406889890970730496&permissions=0&scope=bot")
     
+    
+    
+    if not os.environ.get('TOKEN'):
+    print("No token found!")
+bot.run(os.environ.get('TOKEN').strip('"'))
