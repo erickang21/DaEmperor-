@@ -12,7 +12,7 @@ async def on_ready():
     await bot.change_presence(game=discord.Game(name=f"with {len(bot.guilds)} servers!")) 
     
     
-@bot.command
+@bot.command()
 async def ping(ctx):
     await ctx.send("Ello peeps! I'm online")
                    
