@@ -14,22 +14,17 @@ async def on_ready():
     
 @bot.command()
 async def lonely(ctx):
-    await ctx.send("Ello m8! I'm online & here for you")
+    await ctx.send("Ello m8! I'm online & here for you" 
                    
-        
+                   
+                   
+@bot.command()
+async def invite(ctx):
+    await ctx.send("Invite me to that server of yours: https://discordapp.com/api/oauth2/authorize?client_id=406889890970730496&permissions=0&scope=bot")
+          
         
 if not os.environ.get('TOKEN'):
     print("No token found!")
 bot.run(os.environ.get('TOKEN').strip('"'))
 
-
-
-@bot.command()
-async def invite(ctx):
-    await ctx.send("Invite me to that server of yours: https://discordapp.com/api/oauth2/authorize?client_id=406889890970730496&permissions=0&scope=bot")
     
-    
-    
-    if not os.environ.get('TOKEN'):
-    print("No token found!")
-bot.run(os.environ.get('TOKEN').strip('"'))
