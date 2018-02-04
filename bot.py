@@ -14,7 +14,8 @@ async def on_ready():
     
 @bot.command()
 async def lonely(ctx):
-    await ctx.send("Ello m8! I'm online & here for you" 
+    await ctx.send("Ello m8! I'm online & here for you")
+                   
                    
                    
 @bot.command()
